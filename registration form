@@ -1,0 +1,172 @@
+<Doctype html>
+ <html>
+ <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.min.css">
+    
+    <title>registration form</title>
+ </head>
+        
+<body style="background-color: rgb(233, 220, 203);">
+    
+    <center>
+    <br><h1><b style="color: brown;"><font size="+4">registration form</font></b></h1>
+    
+
+    <table style="font-size: medium;">
+        <tr>
+            <td colspan="2" rowspan="2">
+                Name:
+            </td>
+            <td colspan="2" rowspan="2">
+                <input type="text" placeholder="Name" name=" ">
+            </td>
+           
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                Standard:
+            </td>
+            <td colspan="2" rowspan="2">
+                <form action=" " method="get">
+                  
+                     <select class="livesearch">
+                         <option>1st year</option>
+                        <option>2nd year</option>
+                        <option>3rd year</option>
+                        <option>4th year</option>
+                        <option>Masters</option>
+                        <option>working</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                gender:
+            </td>
+            <td colspan="2" rowspan="2">
+                <input type="radio" name="gender">female
+                <input type="radio" name="gender">male
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                Mail:
+            </td>
+            <td colspan="2" rowspan="2">
+                <input type="email" placeholder="example@gmail.com" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                Phone number:
+            </td>
+            <td colspan="2" rowspan="2">
+                <select >
+                    <option>+91</option>
+                    <option>+61</option>
+                    <option>+44</option>
+                    <option>+1</option>
+                    <option>+33</option>
+                    <option>+86</option>
+                    <option>+49</option>
+                    <option>+63</option>
+                    <option>+94</option>
+                    <option>+34</option>
+                    <option>+27</option>
+                </select>
+                <input type="number" placeholder="98765*****" name=" ">
+            </td><br><br>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                Hobbies:
+            </td>
+            <td colspan="2" rowspan="2">
+                <form action=" " method="get">
+                  
+                    <select class="livesearch" multiple>
+                        <option>reading</option>
+                       <option>paper crafting</option>
+                       <option>singing</option>
+                       <option>dancing</option>
+                       <option>sleeping</option>
+                   </select>
+               </form>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+                    <script src= "https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js">
+                  </script>
+                  <script type="text/javascript">
+                    $(".livesearch").chosen();
+                    </script>
+                </form>
+              </td>
+        </tr>    
+    <tr>
+        <td colspan="2" rowspan="2">
+    <p>can you write my assignmet for me T_T?</p>
+    </td>
+    <td colspan="2" rowspan="2">
+    <input type="radio">yes
+    <input type="radio">not possible
+    <input type="radio">get lost
+    </td>
+</tr>
+</table>
+    <br><br>
+    <input type="file" name="file" accept=" ">
+    <input type="checkbox">I accept to send my selfie to kaveri :p
+    <br><br>
+    <b><button style="background-color: rgb(185, 174, 196);"><font size="3">Reset</font></button></b>
+    <button style="background-color: rgb(185, 174, 196);" type="submit" name="submit" onclick="alert('your response have been submitted')"> <font size="3">Submit</font></button>
+    <center>
+        <script>
+            {
+            function whatsapp()
+            var Name = document.getElementById("Name").value;
+            var Standard = document.getElementById("standard").value;
+            var gender = document.getElementById("gender").value;
+            var mail = document.getElementById("email").value;
+            var phone number = document.getElementById("number").value;
+            var Hobbies = document.getElementById("text").value;
+
+            var url = "http://wa.me/918522945013?text="
+            +"*Name :* "+Name+"%a"
+            +"*Standard :* "+Standard+"%a"
+            +"*gender :* "+gender+"%a"
+            +"*mail :* "+mail+"%a"
+            +"*phone number :* "+phone number+"%a"
+            +"*Hobbies :* "+Hobbies+"%a"
+
+            window.open(url,'blank').focus();
+        }
+</script>
+            </body>
+ </html>
+ <a href="https://wa.me/918522945013?text=Hi%20There!"
+class="float"
+style="
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 70px;
+  right: 120px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #999;
+"
+>
+<img
+  src="https://trickuweb.com/whatsapp.png"
+  alt=""
+  height="60px"
+  width="60px"
+/>
+</a>
+
+
+             
