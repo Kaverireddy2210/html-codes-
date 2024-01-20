@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="stylecss">
+        <title>Instagram</title>
+    </head>
+    <body>
+        <style>
+            *{
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+ }
+        </style>
+        
+        <section class="Header">
+            <style>
+            .Header{
+                display: flex;
+                justify-content: space-between;
+                padding: 0.8rem;
+            }
+            </style>
+            <div class="left">
+                <style>
+                    .left{
+                        display: flex;
+                    }
+                </style>
+
+                   
+                <i class="fa-solid fa-angle-left"></i>
+                
+                <h4><b font size="+4">cynohub</b></h4>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <style>
+                .i{
+                        margin: 0 0.8rem;
+                    }
+                </style>
+            </div>   
+        </section>
+        <section class="profileinfo">
+            <style>
+                .profileinfo img{
+    border-radius: 50%;
+
+}
+            </style>
+            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCZaZQHs5x6kb3yXkoreKL_A&psig=AOvVaw2u_NrUJBQBa_YjOzOlPEg5&ust=1695884142071000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDh_vCayoEDFQAAAAAdAAAAABAE"></a>
+            <div class="profilestats">
+                <style>
+                    .profileStats{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+                </style>
+                <div class="stat">
+                    <h5>82</h5>
+                    <span>posts</span>
+                </div>
+                <div class="stat">
+                    <h5>5500</h5>
+                    <span>followers</span>
+                </div>
+                 <div class="stat">
+                    <h5>2</h5>
+                    <span>following</span>
+                </div>
+                <style>
+                    .stat{
+    text-align: center;
+    margin: 0 0.4rem;
+}
+                </style>
+            </div>
+        </section>
+        <section class="bio">
+            <h4>cynohub | Btech Learning App</h4>
+            <span>Education</span>
+            <p>Cynohub is India's leading online Learning Platform for Btech Students</p>
+            <p>#cynohub</p>
+            <a href="https://play.google.com/store/search?q=cynohub&c=apps&hl=en-IN"></a>
+            <p>Download the App now!</p>
+        </section>
+        <section class="highlights">
+            <div class="story">
+                <img src="" alt="">
+                <h4>Heading</h4>
+            </div>
+            <div class="story">
+                <img src="" alt="">
+                <h4>Heading</h4>
+            </div>
+            <div class="story">
+                <img src="" alt="">
+                <h4>Heading</h4>
+            </div>
+            <div class="story">
+                <img src="" alt="">
+                <h4>Heading</h4>
+            </div>
+            <div class="story">
+                <img src="" alt="">
+                <h4>Heading</h4>
+            </div>
+        </section> 
+        <section class="Posts">
+            <img src="" alt="" class="Posts">            
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+            <img src="" alt="" class="Posts">
+
+
+        </section>   
+    
+
+
+    </body>
+</html>
